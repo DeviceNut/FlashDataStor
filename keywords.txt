@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For FlashDataStor
+####################################### 
+# Class and Structure
+#######################################
+
+FlashDataStor	KEYWORD1
+HeaderInfo	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+headInfo	KEYWORD2
+getHeaderInfo	KEYWORD2
+setSavedValue	KEYWORD2
+getSavedValue	KEYWORD2
+setString	KEYWORD2
+getString	KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+FLASHDATASTOR_MINLEN	LITERAL1
+
+FlashDataStor_Success	LITERAL1
+FlashDataStor_BadStorLength	LITERAL1
+FlashDataStor_BadHeaderLen	LITERAL1
+FlashDataStor_CorruptData	LITERAL1

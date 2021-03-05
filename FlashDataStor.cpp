@@ -1,9 +1,6 @@
-#if defined(SPARK)
-#include "application.h"
-#else
 #include <Arduino.h>
 #include <EEPROM.h>
-#endif
+
 #include "FlashDataStor.h"
 
 #define DEBUG_OUTPUT 0 // 1 to debug this file
@@ -17,7 +14,7 @@
 
 FlashDataStor flashDataStor; // only one instance
 
-#if defined(ESP8266)
+#if defined(ESP8266) || defined(ESP32)
 #define EEPROM_LENGTH   4096
 #else
 #define EEPROM_LENGTH   EEPROM.length()
